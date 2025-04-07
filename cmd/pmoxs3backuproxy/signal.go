@@ -5,7 +5,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"tizbac/pmoxs3backuproxy/internal/s3backuplog"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3backuplog"
 )
 
 func (s *Server) handleSignal() {
