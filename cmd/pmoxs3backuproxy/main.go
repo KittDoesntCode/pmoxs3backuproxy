@@ -42,8 +42,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-	"tizbac/pmoxs3backuproxy/internal/s3backuplog"
-	"tizbac/pmoxs3backuproxy/internal/s3pmoxcommon"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3backuplog"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3pmoxcommon"
 
 	"github.com/google/uuid"
 	"github.com/minio/minio-go/v7"
