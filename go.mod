@@ -1,4 +1,4 @@
-module tizbac/pmoxs3backuproxy
+module KittDoesntCode/pmoxs3backuproxy
 
 go 1.22.4
 
