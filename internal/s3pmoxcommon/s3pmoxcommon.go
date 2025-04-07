@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strconv"
 	"strings"
-	"tizbac/pmoxs3backuproxy/internal/s3backuplog"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3backuplog"
 
 	"github.com/minio/minio-go/v7"
 )
