@@ -179,7 +179,7 @@ Add the following to your `docker-compose.yml`, add/update your `-endpoint`, the
 name: pmoxs3backuproxy
 services:
   pmoxs3backuproxy:
-    image: ghcr.io/tizbac/pmoxs3backuproxy:latest
+    image: ghcr.io/KittDoesntCode/pmoxs3backuproxy:latest
     command: -bind 127.0.0.1:8007 -endpoint 127.0.0.1:9000
     container_name: pmoxs3backuproxy
     hostname: pmoxs3backuproxy
@@ -201,7 +201,7 @@ For increased security, you can add the following security parameters without af
 To execute the garbage collector in a separate container, you can use a
 different entrypoint:
 ```
- docker run --entrypoint /garbagecollector -it ghcr.io/tizbac/pmoxs3backuproxy:latest [..]
+ docker run --entrypoint /garbagecollector -it ghcr.io/KittDoesntCode/pmoxs3backuproxy:latest [..]
 ```
 or exec it within the running proxy container:
 ```
