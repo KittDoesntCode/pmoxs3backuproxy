@@ -34,9 +34,9 @@ jobs:
         run: |
           go get github.com/elbandi/go-proxmox-backup-client
           go get github.com/schollz/progressbar/v3
-          go build  tizbac/pmoxs3backuproxy/cmd/pmoxs3backuproxy
-          go build  tizbac/pmoxs3backuproxy/cmd/garbagecollector
-          go build -o fdxtest tizbac/pmoxs3backuproxy/test
+          go build  KittDoesntCode/pmoxs3backuproxy/cmd/pmoxs3backuproxy
+          go build  KittDoesntCode/pmoxs3backuproxy/cmd/garbagecollector
+          go build -o fdxtest KittDoesntCode/pmoxs3backuproxy/test
       - name: "Create backup and test restore"
         run: |
           echo "start proxy"
