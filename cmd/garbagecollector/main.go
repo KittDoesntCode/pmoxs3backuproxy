@@ -13,8 +13,8 @@ import (
 	"os"
 	"strings"
 	"time"
-	"tizbac/pmoxs3backuproxy/internal/s3backuplog"
-	"tizbac/pmoxs3backuproxy/internal/s3pmoxcommon"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3backuplog"
+	"KittDoesntCode/pmoxs3backuproxy/internal/s3pmoxcommon"
 
 	"github.com/juju/clock"
 	"github.com/juju/mutex/v2"
